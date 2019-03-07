@@ -1,0 +1,4 @@
+services:
+  app.test.lepra_api_client:
+    alias: App\Api\LepraApiClient
+    public: true
