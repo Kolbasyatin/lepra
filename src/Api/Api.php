@@ -6,7 +6,7 @@ namespace App\Api;
 
 class Api
 {
-    private const API_URL = 'https://leprosorium.ru/api/';
+    public const API_URL = 'https://leprosorium.ru/api/';
 
     /** @var ApiClientInterface */
     private $client;

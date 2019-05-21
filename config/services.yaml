@@ -5,6 +5,11 @@
 # https://symfony.com/doc/current/best_practices/configuration.html#application-related-configuration
 parameters:
     locale: 'en'
+    lepra.id: '%env(LEPRA_ID)%'
+    lepra.secrets: '%env(LEPRA_SECRETS)%'
+    lepra.redirect_url: '%env(LEPRA_REDIRECT_URL)%'
+    lepra.api_url: !php/const App\Api\Api::API_URL
+
 
 services:
     # default configuration for services in *this* file
